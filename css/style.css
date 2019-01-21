@@ -108,3 +108,7 @@ body {
     line-height: 1.4;
   }
 }
+.buttons_group {
+  display: flex;
+  margin-top: 40px;
+}
