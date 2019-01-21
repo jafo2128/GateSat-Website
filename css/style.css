@@ -165,3 +165,33 @@ body {
 		height: 100vh;
 	}
 }
+.vertical-lines div:nth-child(1) {
+  animation: load 2s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1.6s;
+}
+.vertical-lines div:nth-child(2) {
+  animation: load 2s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 1.8s;
+}
+.vertical-lines div:nth-child(3) {
+  animation: load 2s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+.vertical-lines div:nth-child(4) {
+  animation: load 2s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 2.2s;
+}
+.vertical-lines div:nth-child(5) {
+  animation: load 2s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 2.4s;
+}
+.vertical-lines div:nth-child(6) {
+  animation: load 2s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 2.6s;
+}
