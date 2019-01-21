@@ -66,3 +66,14 @@ body {
   text-transform: uppercase;
   line-height: 1;
 }
+.section__content-label:before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: -120px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100px;
+  height: 2px;
+  background: #fff;
+}
