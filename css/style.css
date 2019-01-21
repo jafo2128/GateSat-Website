@@ -198,3 +198,8 @@ body {
 .vertical-lines div:nth-child(7) {
   border: none;
 }
+@media (max-width: 768px) {
+  .vertical-lines div {
+    border-right: 0;
+  }
+}
