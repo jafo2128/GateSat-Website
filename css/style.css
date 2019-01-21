@@ -92,3 +92,12 @@ body {
     line-height: 1.2;
   }
 }
+.subtitle {
+  color: #fff;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  opacity: 0.7;
+}
