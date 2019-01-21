@@ -18,3 +18,22 @@ body {
   z-index: -1;
   box-shadow: 0 0 350px black inset;
 }
+
+.stars:before, .stars:after {
+  content: "";
+  position: absolute;
+  background: url("http://cdn130.picsart.com/245512160036212.png") repeat-x;
+  background-size: contain;
+  background-position: center;
+  -webkit-animation: stars 60s linear infinite;
+          animation: stars 60s linear infinite;
+  width: 300vw;
+  height: 100vh;
+  z-index: -2;
+}
+
+@media (max-width: 768px) {
+  .stars:before, .stars:after {
+    background-size: cover;
+  }
+}
