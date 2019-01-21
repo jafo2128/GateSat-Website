@@ -141,3 +141,6 @@ body {
   z-index: -1;
   transition: right 0.4s ease-in-out;
 }
+.button:hover:before {
+  right: 0;
+}
