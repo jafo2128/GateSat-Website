@@ -57,3 +57,12 @@ body {
 		opacity: 1;
 	}
 }
+.section__content-label {
+  position: relative;
+  margin: 0 120px 20px;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+}
