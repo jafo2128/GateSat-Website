@@ -234,13 +234,13 @@ body {
   font-size: 42px;
 }
 .space {
-	position: absolute;
-	display: block;
-	width: 25rem;
-	left: 50%;
-	top: 25%;
-	height: 25rem;
-	border: red;
-	-webkit-animation: float 6s ease-in-out infinite;
-	  animation: float 6s ease-in-out infinite;
+  position: absolute;
+  display: block;
+  width: 25rem;
+  left: 50%;
+  top: 25%;
+  height: 25rem;
+  border: red;
+  -webkit-animation: float 6s ease-in-out infinite;
+          animation: float 6s ease-in-out infinite;
 }
