@@ -195,3 +195,6 @@ body {
   animation-fill-mode: forwards;
   animation-delay: 2.6s;
 }
+.vertical-lines div:nth-child(7) {
+  border: none;
+}
