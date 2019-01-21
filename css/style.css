@@ -144,3 +144,11 @@ body {
 .button:hover:before {
   right: 0;
 }
+.vertical-lines {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  height: 100vw;
+  width: 100vw;
+  z-index: -1;
+}
