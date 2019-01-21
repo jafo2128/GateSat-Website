@@ -86,3 +86,9 @@ body {
   letter-spacing: 2px;
   line-height: 1.3;
 }
+@media (max-width: 768px) {
+  .title {
+    font-size: 46px;
+    line-height: 1.2;
+  }
+}
