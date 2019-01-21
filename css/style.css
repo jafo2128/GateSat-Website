@@ -203,3 +203,9 @@ body {
     border-right: 0;
   }
 }
+.logo {
+  position: fixed;
+  display: block;
+  left: 20px;
+  top: 20px;
+}
