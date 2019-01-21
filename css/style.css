@@ -112,3 +112,18 @@ body {
   display: flex;
   margin-top: 40px;
 }
+.button {
+  position: relative;
+  width: auto;
+  max-width: 270px;
+  padding: 15px 35px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  transition: color 0.4s ease-in-out;
+}
