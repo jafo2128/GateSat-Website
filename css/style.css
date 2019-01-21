@@ -130,3 +130,14 @@ body {
 .button:hover {
   color: #111;
 }
+.button:before {
+  content: "";
+  position: absolute;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  top: 0;
+  z-index: -1;
+  transition: right 0.4s ease-in-out;
+}
