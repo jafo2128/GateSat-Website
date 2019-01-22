@@ -7,7 +7,7 @@
 
 body {
   background: #111;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .vignette {
@@ -41,7 +41,7 @@ body {
 .section {
   position: relative;
 }
-.section__inner {
+.section__inner:nth-child(odd) {
   max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
@@ -49,6 +49,17 @@ body {
   animation: fade-in 2s ease-in-out;
   animation-fill-mode: forwards;
   animation-delay: 3.2s;
+}
+.section__inner:nth-child(even) {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  opacity: 0;
+  animation: fade-in 2s ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 3.2s;
+  position: absolute;
+  right: 60px;
 }
 .section__content {
   display: flex;
@@ -245,7 +256,7 @@ body {
   display: block;
   width: 25rem;
   left: 50%;
-  top: 25%;
+  top: 12%;
   height: 25rem;
   border: red;
   -webkit-animation: float 6s ease-in-out infinite;
