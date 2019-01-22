@@ -23,7 +23,7 @@ body {
 .stars:before, .stars:after {
   content: "";
   position: absolute;
-  background: url("img/stars.png") repeat-x;
+  background: url("../img/stars.png") repeat-x;
   background-size: contain;
   background-position: center;
   -webkit-animation: stars 60s linear infinite;
