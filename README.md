@@ -3,3 +3,5 @@
 
 # Gatesat Website
 ### by Cody Bennett
+
+[![Demo](img/demo.JPG)](https://codyb.co/gatesat)
