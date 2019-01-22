@@ -3,6 +3,6 @@
 ![travis build](https://img.shields.io/travis/gkjohnson/three-mesh-bvh.svg)
 
 # Gateway Cubesat Project Website
-### by Cody Bennett
+### by [Cody Bennett](https://codyb.co)
 
 [![Demo](img/demo.png)](https://codyb.co/gatesat)
