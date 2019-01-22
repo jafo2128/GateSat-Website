@@ -4,4 +4,4 @@
 # Gateway Cubesat Project Website
 ### by Cody Bennett
 
-[![Demo](img/demo.JPG)](https://codyb.co/gatesat)
+[![Demo](img/demo.jpg)](https://codyb.co/gatesat)
