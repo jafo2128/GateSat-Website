@@ -23,8 +23,7 @@ body {
 .stars:before, .stars:after {
   content: "";
   position: absolute;
-  /*Atmosphere: https://res.cloudinary.com/dkr52htco/image/upload/v1536173269/stars-1.png*/
-  background: url("http://cdn130.picsart.com/245512160036212.png") repeat-x;
+  background: url("img/stars.png") repeat-x;
   background-size: contain;
   background-position: center;
   -webkit-animation: stars 60s linear infinite;
